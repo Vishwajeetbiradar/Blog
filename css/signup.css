@@ -1,0 +1,157 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+  }
+#containerleft{
+    width: 600px;
+    height: 500px;
+    background: rgb(251, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#containerleft h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+#containerleft p{
+    font-size: 24px;
+}
+#loginButton,#signupbutton{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.615);
+    box-shadow: 2px 2px 2px black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#loginButton:hover,#signupbutton:hover{
+    background-color: #D4145A;
+    color: white;
+}
+  #container {
+    width: 600px;
+    height: 500px;
+    box-shadow: 0px 5px 8px 3px #aaaa;
+    border-radius: 5px;
+    background: white;
+    padding-left: 10px;
+  }
+  #firstname input{
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    box-shadow: 2px 2px 1px black;
+    outline: none;
+}
+  .name {
+    width: 42%;
+    border-radius: 5px;
+    height: 35px;
+    border: 1px solid #aaaa;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+  .email {
+    width: 90%;
+    height: 35px;
+    border: 1px solid #aaaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+ 
+  h5 {
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  #don{
+    display: flex;
+    
+  }
+  select {
+    width: 175px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #aaaa;
+    border-radius: 5px;
+  }
+  #gend {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .gender {
+    width: 175px;
+    margin-right: 20px;
+    height: 25px;
+    border: 1px solid #aaaa;
+    padding: 10px 0px 0px 10px;
+    border-radius: 5px;
+  }
+  .gender input{
+    border: none;
+    box-shadow: none;
+  }
+  #male,
+  #fmale,
+  #omale {
+    display: flex;
+    justify-content: space-around;
+  }
+  #para {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #606770;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+  }
+ #but{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20PX;
+ }
+  h3 {
+    margin-top: 10px;
+    margin-left: 125px;
+    color: rgb(24, 119, 242);
+  }
+  
